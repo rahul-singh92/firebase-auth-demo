@@ -29,16 +29,16 @@ Currently, the app contains only **authentication pages** (`Sign In` and `Sign U
 
 ## 📂 Project Structure
 
-src/
-|-- firebase.js # Firebase config & initialization
-|-- App.js # Main routing with protected routes
-|-- pages/
-| |-- SignIn.js # Sign In page
-| |-- SignUp.js # Sign Up page
-| |-- ToDoList.js # Placeholder for To-Do (post login)
-|-- styles/
-|-- SignIn.css
-|-- SignUp.css
+- src/
+  - firebase.js # Firebase config & initialization
+  - App.js # Main routing with protected routes
+  - pages/
+    - SignIn.js # Sign In page
+    - SignUp.js # Sign Up page
+    - ToDoList.js # Placeholder for To-Do (post login)
+  - styles/
+    - SignIn.css
+    - SignUp.css
 
 
 ---
