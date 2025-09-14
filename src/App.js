@@ -3,7 +3,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "./firebase";
 import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
-import TodoList from "./pages/TodoList"; // make sure filename matches (not ToDoList)
+import TodoList from "./pages/ToDoList"; // make sure filename matches (not ToDoList)
 
 function PrivateRoute({ children }) {
   const [user] = useAuthState(auth);

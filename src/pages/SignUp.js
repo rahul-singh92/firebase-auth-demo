@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import "../styles/Auth.css"
 
 export default function SignUp() {
-    const [email, setEmail] = useState("");
+    const [email, setEmail] = useState(""); 
     const [password, setPassword] = useState("");
     const navigate = useNavigate();
 
